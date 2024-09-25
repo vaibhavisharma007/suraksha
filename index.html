@@ -1,0 +1,218 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Suraksha</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#121a21] dark group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#121a21] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-xl bg-[#253746]"><p class="text-white text-sm font-medium leading-normal">Overview</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal"><a href="incidents.html">Incidents</a></p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal"><a href="missing2.html">Missing Persons</a></p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal"><a href="live.html">live</a></p></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-white tracking-light text-[32px] font-bold leading-tight">Admin Dashboard</p>
+                <p class="text-[#95b0c6] text-sm font-normal leading-normal">Last updated 3 minutes ago</p>
+              </div>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Live View</h3>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/50fba178-b613-490e-9275-930cdb56d9f1.png");'
+                ></div>
+                <p class="text-white text-base font-medium leading-normal"><a href="live.html">Market Street, Mumbai</a></p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/24b500c3-a166-44c4-9fbd-ce4aeb49e186.png");'
+                ></div>
+                <p class="text-white text-base font-medium leading-normal">Bangalore Railway Station</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/fcb606a0-cd7c-45be-9474-0210ad062340.png");'
+                ></div>
+                <p class="text-white text-base font-medium leading-normal">Delhi Airport Terminal</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/bdee5958-8d6f-4b45-8b72-cb00b7b04a97.png");'
+                ></div>
+                <p class="text-white text-base font-medium leading-normal">Hyderabad Bus Depot</p>
+              </div>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Recent Incidents</h3>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#364f63] bg-[#121a21]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#1b2732]">
+                      <th class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Location</th>
+                      <th class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Time</th>
+                      <th class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Type</th>
+                      <th class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600 px-4 py-3 text-left text-white w-60 text-[#95b0c6] text-sm font-medium leading-normal">
+                        Details
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#364f63]">
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Saket Street, Delhi
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240 h-[72px] px-4 py-2 w-[400px] text-[#95b0c6] text-sm font-normal leading-normal">8:23 AM</td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Theft</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Active</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600 h-[72px] px-4 py-2 w-60 text-[#95b0c6] text-sm font-bold leading-normal tracking-[0.015em]">
+                        <a href="officeStatus.html">View</a>
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#364f63]">
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Delhi Airport Terminal
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240 h-[72px] px-4 py-2 w-[400px] text-[#95b0c6] text-sm font-normal leading-normal">9:45 AM</td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Vandalism</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Resolved</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600 h-[72px] px-4 py-2 w-60 text-[#95b0c6] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#364f63]">
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Hyderabad Bus Depot
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240 h-[72px] px-4 py-2 w-[400px] text-[#95b0c6] text-sm font-normal leading-normal">11:12 AM</td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Assault</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Active</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600 h-[72px] px-4 py-2 w-60 text-[#95b0c6] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#364f63]">
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Bangalore Railway Station
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240 h-[72px] px-4 py-2 w-[400px] text-[#95b0c6] text-sm font-normal leading-normal">1:36 PM</td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Fraud</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Active</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600 h-[72px] px-4 py-2 w-60 text-[#95b0c6] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#364f63]">
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Chennai Shopping Mall
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240 h-[72px] px-4 py-2 w-[400px] text-[#95b0c6] text-sm font-normal leading-normal">2:51 PM</td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Kidnapping</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#253746] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">New</span>
+                        </button>
+                      </td>
+                      <td class="table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600 h-[72px] px-4 py-2 w-60 text-[#95b0c6] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-120{display: none;}}
+                @container(max-width:240px){.table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-240{display: none;}}
+                @container(max-width:360px){.table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-360{display: none;}}
+                @container(max-width:480px){.table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-480{display: none;}}
+                @container(max-width:600px){.table-fa01a6c5-5797-414d-8218-c8cf4048b340-column-600{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

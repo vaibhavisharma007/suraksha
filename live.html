@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Suraksha</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#101a23] dark group/design-root overflow-x-hidden"
+      style='--checkbox-tick-svg: url(&apos;data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(255,255,255)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e&apos;); font-family: "Public Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#101a23] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col">
+                  <h1 class="text-white text-base font-medium leading-normal">Indian Police</h1>
+                  <p class="text-[#90b0cb] text-sm font-normal leading-normal">Delhi</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal"><a href="incidents.html">Incidents</a></p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal"><a href="missing2.html">Missing Persons</a></p></div>
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-xl bg-[#223749]"><p class="text-white text-sm font-medium leading-normal">Live View</p></div>
+
+                </div>
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-white" data-icon="DoorOpen" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M232,216H208V40a16,16,0,0,0-16-16H64A16,16,0,0,0,48,40V216H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM192,40V216H176V40ZM64,40h96V216H64Zm80,92a12,12,0,1,1-12-12A12,12,0,0,1,144,132Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm font-medium leading-normal">Log out</p>
+                </div>
+              </div>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Camera Health</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row-reverse justify-between">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#314f68] border-2 bg-transparent text-[#2094f3] checked:bg-[#2094f3] checked:border-[#2094f3] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#314f68] focus:outline-none"
+                  checked=""
+                />
+                <p class="text-white text-base font-normal leading-normal">Camera 1</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row-reverse justify-between">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#314f68] border-2 bg-transparent text-[#2094f3] checked:bg-[#2094f3] checked:border-[#2094f3] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#314f68] focus:outline-none"
+                  checked=""
+                />
+                <p class="text-white text-base font-normal leading-normal">Camera 2</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row-reverse justify-between">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#314f68] border-2 bg-transparent text-[#2094f3] checked:bg-[#2094f3] checked:border-[#2094f3] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#314f68] focus:outline-none"
+                  checked=""
+                />
+                <p class="text-white text-base font-normal leading-normal">Camera 3</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row-reverse justify-between">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#314f68] border-2 bg-transparent text-[#2094f3] checked:bg-[#2094f3] checked:border-[#2094f3] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#314f68] focus:outline-none"
+                  checked=""
+                />
+                <p class="text-white text-base font-normal leading-normal">Camera 4</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row-reverse justify-between">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#314f68] border-2 bg-transparent text-[#2094f3] checked:bg-[#2094f3] checked:border-[#2094f3] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#314f68] focus:outline-none"
+                  checked=""
+                />
+                <p class="text-white text-base font-normal leading-normal">Camera 5</p>
+              </label>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Live View</p>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#223749] text-white text-sm font-medium leading-normal"
+              >
+                <span class="truncate"><a href="index.html">Go To Dashboard</a></span>
+              </button>
+            </div>
+            <div class="flex gap-3 p-3 flex-wrap pr-4">
+              <button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#223749] pl-4 pr-2">
+                <p class="text-white text-sm font-medium leading-normal">All cities</p>
+                <div class="text-white" data-icon="CaretDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </button>
+              <button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#223749] pl-4 pr-2">
+                <p class="text-white text-sm font-medium leading-normal">All cameras</p>
+                <div class="text-white" data-icon="CaretDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </button>
+              <button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#223749] pl-4 pr-2">
+                <p class="text-white text-sm font-medium leading-normal">All incident types</p>
+                <div class="text-white" data-icon="CaretDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="relative flex items-center justify-center bg-[#2094f3] bg-cover bg-center aspect-video"
+              style='background-image: url("https://cdn.usegalileo.ai/stability/086af273-6927-4ef5-994e-ba763b723272.png");'
+            >
+              <button class="flex shrink-0 items-center justify-center rounded-full size-16 bg-black/40 text-white">
+                <div class="text-inherit" data-icon="Play" data-size="24px" data-weight="fill">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="p-4 @container">
+              <div class="flex flex-1 flex-col items-start justify-between gap-4 rounded-xl border border-[#314f68] bg-[#101a23] p-5 @[480px]:flex-row @[480px]:items-center">
+                <div class="flex flex-col gap-1">
+                  <p class="text-white text-base font-bold leading-tight">Playback</p>
+                  <p class="text-[#90b0cb] text-base font-normal leading-normal">00:00:00</p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#2094f3] text-white text-sm font-medium leading-normal"
+                >
+                  <span class="truncate">Play</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-center">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#223749] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">End playback</span>
+              </button>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Alerts</h3>
+            <div class="flex items-center gap-4 bg-[#101a23] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex items-center gap-4">
+                <div class="text-white flex items-center justify-center rounded-lg bg-[#223749] shrink-0 size-12" data-icon="Skull" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M92,104a28,28,0,1,0,28,28A28,28,0,0,0,92,104Zm0,40a12,12,0,1,1,12-12A12,12,0,0,1,92,144Zm72-40a28,28,0,1,0,28,28A28,28,0,0,0,164,104Zm0,40a12,12,0,1,1,12-12A12,12,0,0,1,164,144ZM128,16C70.65,16,24,60.86,24,116c0,34.1,18.27,66,48,84.28V216a16,16,0,0,0,16,16h80a16,16,0,0,0,16-16V200.28C213.73,182,232,150.1,232,116,232,60.86,185.35,16,128,16Zm44.12,172.69a8,8,0,0,0-4.12,7V216H152V192a8,8,0,0,0-16,0v24H120V192a8,8,0,0,0-16,0v24H88V195.69a8,8,0,0,0-4.12-7C56.81,173.69,40,145.84,40,116c0-46.32,39.48-84,88-84s88,37.68,88,84C216,145.83,199.19,173.69,172.12,188.69Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col justify-center">
+                  <p class="text-white text-base font-medium leading-normal line-clamp-1">Robbery</p>
+                  <p class="text-[#90b0cb] text-sm font-normal leading-normal line-clamp-2">02:43 PM</p>
+                </div>
+              </div>
+              <div class="shrink-0"><p class="text-white text-base font-normal leading-normal">Delhi</p></div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#101a23] px-4 min-h-[72px] py-2 justify-between">
+              <div class="flex items-center gap-4">
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
